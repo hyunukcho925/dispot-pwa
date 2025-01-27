@@ -80,7 +80,7 @@ export default function Home() {
                         "px-4 py-2 text-sm font-medium leading-5 focus:outline-none whitespace-nowrap",
                         "border-b-2 -mb-[1px]",
                         selected
-                          ? "border-b-4 border-primary text-primary font-bold"
+                          ? "border-b-4 border-primary text-primary font-extrabold"
                           : "border-b-2 border-gray-100 text-gray-300 hover:text-gray-700"
                       )
                     }
