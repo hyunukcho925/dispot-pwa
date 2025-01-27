@@ -6,11 +6,14 @@ const geist = Geist({
   subsets: ["latin"],
 });
 
+export const viewport = {
+  themeColor: '#ffffff',
+}
+
 export const metadata: Metadata = {
   title: "디스팟",
   description: "Dispot Progressive Web App",
   manifest: "/manifest.json",
-  themeColor: "#000000",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
@@ -35,10 +38,9 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="디스팟" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="theme-color" content="#000000" />
       </head>
       <body className={`${geist.className} antialiased`}>
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col max-w-[480px] mx-auto bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)]">
           <main className="flex-1">{children}</main>
         </div>
       </body>

@@ -11,7 +11,17 @@ const withPWA = createNextPWA({
 });
 
 const config = {
-  reactStrictMode: true
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'bdmhxbhpetcrhumzcyhv.supabase.co',
+        port: '',
+        pathname: '**',
+      },
+    ],
+  },
 } satisfies NextConfig;
 
 export default withPWA(config);
