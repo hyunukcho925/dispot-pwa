@@ -4,7 +4,7 @@ import { supabase } from '../../../utils/supabase';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import BottomTab from "@/components/BottomTab";
+import BottomNav from "@/components/BottomNav";
 
 
 
@@ -104,7 +104,7 @@ export default function Category() {
           </div>
         </div>
       </div>
-      <BottomTab />
+      <BottomNav />
     </>
   );
 }

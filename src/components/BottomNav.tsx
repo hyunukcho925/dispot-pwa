@@ -1,16 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { HomeIcon, MagnifyingGlassIcon, UserIcon, Squares2X2Icon } from "@heroicons/react/24/outline";
+import { HomeIcon, MagnifyingGlassIcon, Squares2X2Icon } from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
 
-export default function BottomTab() {
+export default function BottomNav() {
   const pathname = usePathname();
 
   return (
     <div className="fixed bottom-0 left-0 right-0 h-14 bg-white border-t border-gray-200 max-w-[480px] mx-auto">
       <div className=" h-full">
-        <div className="grid grid-cols-4 h-full">
+        <div className="grid grid-cols-3 h-full">
           <Link href="/" className="flex flex-col items-center justify-center">
             <HomeIcon
               className={`w-6 h-6 ${
@@ -59,23 +59,23 @@ export default function BottomTab() {
               검색
             </span>
           </Link>
-          <Link
-            href="/my"
+          {/* <Link
+            href="/mypage"
             className="flex flex-col items-center justify-center"
           >
             <UserIcon
               className={`w-6 h-6 ${
-                pathname === "/my" ? "text-primary" : "text-gray-400"
+                pathname === "/mypage" ? "text-primary" : "text-gray-400"
               }`}
             />
             <span
               className={`text-xs mt-1 ${
-                pathname === "/my" ? "text-primary" : "text-gray-400"
+                pathname === "/mypage" ? "text-primary" : "text-gray-400"
               }`}
             >
               마이
             </span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
