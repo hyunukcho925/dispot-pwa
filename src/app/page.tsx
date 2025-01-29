@@ -77,11 +77,11 @@ export default function Home() {
                     key={`tab-${category.category_id}`}
                     className={({ selected }) =>
                       classNames(
-                        "px-4 py-2 text-sm font-medium leading-5 focus:outline-none whitespace-nowrap",
+                        "px-4 py-2 text-sm leading-5 focus:outline-none whitespace-nowrap",
                         "border-b-2 -mb-[1px]",
                         selected
                           ? "border-b-4 border-primary text-primary font-black"
-                          : "border-b-2 border-gray-100 text-gray-300 hover:text-gray-700"
+                          : "border-b-2 border-gray-100 text-gray-300 hover:text-gray-700 font-medium"
                       )
                     }
                   >
@@ -98,14 +98,14 @@ export default function Home() {
                 >
                   <div className="grid grid-cols-4 gap-4">
                     {getSitesByCategory(category.category_id).map((site) => (
-                      <Link 
+                      <Link
                         href={`${site.name_en}`}
                         key={`site-${site.site_id}`}
                         className="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity"
                       >
                         <div className="w-16 h-16 rounded-2xl shadow-lg flex items-center justify-center mb-2 overflow-hidden">
-                          <Image 
-                            src={site.image_url} 
+                          <Image
+                            src={site.image_url}
                             alt={site.name}
                             width={48}
                             height={48}
