@@ -12,6 +12,7 @@ export const viewport = {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://discountedspot.com'),
   title: "디스팟 - 해외직구 할인코드 & 쇼핑 프로모션 모음",
   description: "해외직구 및 국내쇼핑몰 할인코드, 프로모션코드, 쿠폰 정보를 한눈에! 마이테레사, COS, 테무, 알리익스프레스, 아고다, 부킹닷컴, 마이리얼트립 등 인기 쇼핑몰의 최신 핫딜 정보를 제공합니다.",
   manifest: "/manifest.json",
@@ -51,6 +52,8 @@ export const metadata: Metadata = {
     icon: [
       { url: "/icons/icon-192x192.png", sizes: "192x192" },
       { url: "/icons/icon-512x512.png", sizes: "512x512" },
+      { url: "/icons/maskable-icon-192x192.png", sizes: "192x192" },
+      { url: "/icons/maskable-icon-512x512.png", sizes: "512x512" },
     ],
     apple: "/icons/icon-192x192.png",
     shortcut: "/icons/icon-192x192.png",
