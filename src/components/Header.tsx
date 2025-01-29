@@ -10,7 +10,7 @@ export default function Header() {
       <div className="px-4 h-full flex justify-between items-center w-full max-w-[720px] mx-auto">
         <Link href="/" className="flex items-center">
           <Image 
-            src="/assets/images/logo.webp"
+            src="https://bdmhxbhpetcrhumzcyhv.supabase.co/storage/v1/object/public/image//logo.webp"
             alt="디스팟"
             width={64}
             height={30}
