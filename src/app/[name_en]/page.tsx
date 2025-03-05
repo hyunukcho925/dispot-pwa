@@ -66,11 +66,12 @@ export default function SitePage() {
         )}
         <iframe
           src={siteUrl}
-          className="w-full h-[calc(100%+80px)] border-0 -mt-[80px]"
+          className="w-full h-[calc(100%+120px)] border-0 -mt-[120px]"
           title={site.name}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           onLoad={() => setIsIframeLoading(false)}
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-top-navigation"
         />
       </div>
     </div>

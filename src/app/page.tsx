@@ -110,6 +110,8 @@ export default function Home() {
                             width={48}
                             height={48}
                             className="w-full h-full object-contain"
+                            quality={100}
+                            unoptimized={true}
                           />
                         </div>
                         <span className="text-sm">{site.name}</span>

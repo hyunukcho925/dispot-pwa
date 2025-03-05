@@ -83,18 +83,20 @@ export default function Category() {
           <div className="p-4">
             <div className="grid grid-cols-3 gap-4">
               {getSitesByCategory(selectedCategory).map((site) => (
-                <Link 
+                <Link
                   href={`${site.name_en}`}
                   key={`site-${site.site_id}`}
                   className="flex flex-col items-center cursor-pointer hover:opacity-80 transition-opacity"
                 >
                   <div className="w-14 h-14 rounded-2xl shadow-lg flex items-center justify-center mb-2 overflow-hidden bg-white">
-                    <Image 
-                      src={site.image_url} 
+                    <Image
+                      src={site.image_url}
                       alt={site.name}
                       width={48}
                       height={48}
                       className="w-full h-full object-contain"
+                      quality={100}
+                      unoptimized={true}
                     />
                   </div>
                   <span className="text-xs text-center">{site.name}</span>
