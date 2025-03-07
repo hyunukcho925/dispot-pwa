@@ -1,7 +1,7 @@
 {
-  "name": "디스팟 - 해외직구 할인코드 & 쇼핑 프로모션 모음",
+  "name": "디스팟 - 해외직구 할인코드 &amp; 쇼핑 프로모션 모음",
   "short_name": "디스팟",
-  "description": "해외직구 및 국내쇼핑몰 할인코드, 프로모션코드, 쿠폰 정보를 한눈에!",
+  "description": "해외직구 및 국내쇼핑 할인코드, 프로모션코드 &amp; 추가 혜택 핫딜 총정리! 마이테레사, COS, 테무, 알리익스프레스, 아고다, 부킹닷컴, 마이리얼트립 등 매일 최신화되는 할인코드, 프로모션 쿠폰을 통해 합리적인 가격에 구매하세요.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -33,8 +33,12 @@
       "purpose": "maskable"
     }
   ],
-  "id": "dispot-pwa",
+  "id": "dispot",
   "launch_handler": {
     "client_mode": "auto"
-  }
-} 
+  },
+  "lang": "ko",
+  "categories": [
+    "shopping"
+  ]
+}
