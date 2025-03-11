@@ -6,7 +6,10 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "display_override": ["standalone"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
@@ -26,7 +29,5 @@
     "client_mode": "auto"
   },
   "lang": "ko",
-  "categories": [
-    "shopping"
-  ]
+  "categories": ["shopping"]
 }
