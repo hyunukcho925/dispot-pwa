@@ -1,0 +1,11 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.discountedspot.twa",
+    "sha256_cert_fingerprints": [
+      "C58D83C856C8DCD05D062C1012FF81BB8AEDDC6667B54429E95AF234048A93CD",
+      "595DC5719723E2E51D70AF911236F33BE42B67FC10828CDF8E9D341C2509B"
+    ]
+  }
+}] 
