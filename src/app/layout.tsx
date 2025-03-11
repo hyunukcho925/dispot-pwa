@@ -8,7 +8,7 @@ const geist = Geist({
 });
 
 export const viewport = {
-  themeColor: '#ffffff',
+  themeColor: '#35B95E',
 }
 
 export const metadata: Metadata = {
@@ -74,10 +74,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="디스팟" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#35B95E" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui, viewport-fit=cover"
         />
         <link rel="manifest" href="/manifest.json" />
 
