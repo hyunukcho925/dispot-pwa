@@ -1,11 +1,13 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.discountedspot.twa",
-    "sha256_cert_fingerprints": [
-      "C58D83C856C8DCD05D062C1012FF81BB8AEDDC6667B54429E95AF234048A93CD",
-      "595DC571972336E25E1D70AF9112363F33BE42B67FC10828CDF8E9D341C2509B"
-    ]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.discountedspot.twa",
+      "sha256_cert_fingerprints": [
+        "C5:8D:83:C8:56:C8:DC:D0:5D:06:2C:10:12:FF:81:BB:8A:ED:DC:66:67:B5:44:29:E9:5A:F2:34:04:8A:93:CD",
+        "B2:42:AE:74:59:4D:E0:9F:33:23:3C:8F:D0:D3:8B:1B:9A:DA:4C:F8:77:7B:3D:D0:E2:F8:0C:4F:7B:84:58:08"
+      ]
+    }
   }
-}] 
+]
